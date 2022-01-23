@@ -4,7 +4,7 @@
 }
 
 /* #heading-row {
-  padding-top: 4.5rem;
+  position: absolute;
 } */
 
 .container-fluid {
@@ -18,8 +18,26 @@ body {
 h1 {
   font-family: "Montserrat";
   line-height: 1.5;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto 0 auto;
 }
 
 /* Navigation Bar */
@@ -50,7 +68,101 @@ h1 {
 
 /* Title Image */
 #iphone-mockup {
-  width: 100%;
+  width: 20%;
   transform: rotate(20deg);
-  padding: 0 27%;
+  position: absolute;
+  right: 23%;
+}
+
+/* Features Sections */
+.feature-description {
+  text-align: center;
+  padding: 5%;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+.fas {
+  color: #3DB2FF;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #1597E5;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #3DB2FF;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+#press {
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+/* Call to action section */
+#cta {
+  background-color: #3DB2FF;
+  color: #fff;
+  padding: 7% 15% 3%;
+  text-align: center;
+}
+
+/* Footer section */
+#footer {
+  text-align: center;
+}
+
+.Copyright {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+
+@media (max-width: 992px) {
+
+  #title {
+    background-color: #3DB2FF;
+    color: #fff;
+    text-align: center;
+  }
+
+  #iphone-mockup {
+    position: static;
+    transform: rotate(0deg);
+    width: 75%;
+  }
+
 }
