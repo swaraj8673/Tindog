@@ -137,12 +137,17 @@ hr {
   background-color: #3DB2FF;
   color: #fff;
   padding: 7% 15% 3%;
+  /* padding-top: 100px; */
   text-align: center;
 }
 
 /* Footer section */
 #footer {
   text-align: center;
+}
+
+.FooterLogo {
+  padding: 10px 100px 10px 100px;
 }
 
 .Copyright {
